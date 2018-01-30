@@ -6,8 +6,6 @@ public class Bankaccount {
     private String customerName;
     private String email;
     private long phoneNumber;
-    private double deposit;
-    private double withdraw;
 
     public void deposit(double deposit){
         this.balance += deposit;
